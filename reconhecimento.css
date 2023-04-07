@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1{
+    width: 100%;
+    height: 150px;
+    background-color: #d9251c;
+    display: flex;
+    justify-content: center;
+}
+.navbar1 img{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+}
+.titulo{
+    width: 400px;
+    height: 30px;
+    background-color: black;
+    margin-top: 150px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h5{
+    color: white;
+}
+.jogos{
+    width: 400px;
+    height: 50px;
+    background-color: #d9d9d9;
+    margin-top: 20px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogos p {
+    text-align: center;
+}
+.tela{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin-left: 1000px;
+    margin-top: -105px;
+    border-radius: 30px;
+}
+
+
+    
