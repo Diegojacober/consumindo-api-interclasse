@@ -1,5 +1,5 @@
 async function getJogos(){ 
-    let url = `http://localhost:8000/api/v1/jogos`
+    let url = `http://localhost:8000/api/v1/jogos/today`
 
     let results = await fetch(url)
     let json = await results.json()
