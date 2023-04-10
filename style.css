@@ -14,17 +14,17 @@ main {
     flex-direction: column;
 }
 
-.navbar{
+.navbar-senai{
     width: 100%;
     height: 150px;
     background-color: #d9251c;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.navbar img{
+.navbar-senai img{
     width: 200px;
     height: 50px;
-    margin-top: 50px;
 }
 
 .classificaçao{
@@ -91,6 +91,9 @@ main {
     border-radius:5px 0px 0px 5px;
 }
 
+p{
+    margin-bottom: 0;
+}
 
 .vs {
     background-color: #d9d9d9;
@@ -102,17 +105,17 @@ main {
     flex-direction: column;
 }
 .vs img{
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
 }
 
-.game--time{
-    font-size: 14px;
+.game--time,.game--modalidade{
+    font-size: 12px;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    padding: 2px;
     text-align: center;
     color: #d9d9d9;
+    text-transform: uppercase;
 }
 
 @media (max-width:720px) {
