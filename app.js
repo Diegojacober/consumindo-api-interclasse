@@ -10,7 +10,7 @@ async function getJogos() {
         
         let carrouselInner = document.getElementsByClassName("carousel-inner")
         var carrouselItem = document.getElementsByClassName("carousel-item")
-        let lastCarrouitem = carrouselItem[carrouselItem.length - 1]
+        let lastCarrouselitem = carrouselItem[carrouselItem.length - 1]
         if (quantidade % 2 != 0 && quantidade != 1) {
             // cria um carrousel item
             let divCarrouselItem = document.createElement("div")
@@ -135,7 +135,7 @@ async function getJogos() {
             lado2.appendChild(p2)
             divCard.appendChild(lado2)
 
-            lastCarrouitem.append(divCard)
+            lastCarrouselitem.append(divCard)
             quantidade++
         }
 
